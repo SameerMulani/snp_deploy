@@ -1,7 +1,6 @@
 import streamlit as st
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 from transformers import pipeline
-from gtts import gTTS
 import io
 
 import pytube
